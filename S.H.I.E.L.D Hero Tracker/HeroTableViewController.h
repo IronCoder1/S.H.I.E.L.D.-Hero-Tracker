@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HeroTableViewController.h
 //  S.H.I.E.L.D Hero Tracker
 //
 //  Created by MBPinTheAir on 24/04/2016.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface HeroTableViewController : UITableViewController <UITableViewDataSource, UITableViewDelegate>
+
+
 
 
 @end
-

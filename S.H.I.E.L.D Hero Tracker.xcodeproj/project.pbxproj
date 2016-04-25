@@ -9,10 +9,13 @@
 /* Begin PBXBuildFile section */
 		6C971E3F1CCD01A90032AE70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C971E3E1CCD01A90032AE70 /* main.m */; };
 		6C971E421CCD01A90032AE70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C971E411CCD01A90032AE70 /* AppDelegate.m */; };
-		6C971E451CCD01A90032AE70 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C971E441CCD01A90032AE70 /* ViewController.m */; };
 		6C971E481CCD01A90032AE70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C971E461CCD01A90032AE70 /* Main.storyboard */; };
 		6C971E4A1CCD01A90032AE70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C971E491CCD01A90032AE70 /* Assets.xcassets */; };
 		6C971E4D1CCD01A90032AE70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C971E4B1CCD01A90032AE70 /* LaunchScreen.storyboard */; };
+		6C971E561CCD267C0032AE70 /* HeroDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C971E551CCD267C0032AE70 /* HeroDetailViewController.m */; };
+		6C971E591CCD2EAB0032AE70 /* HeroTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C971E581CCD2EAB0032AE70 /* HeroTableViewController.m */; };
+		6C971E5C1CCD2ED20032AE70 /* Hero.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C971E5B1CCD2ED20032AE70 /* Hero.m */; };
+		6C971E5E1CCD374A0032AE70 /* heroes.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C971E5D1CCD374A0032AE70 /* heroes.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +23,17 @@
 		6C971E3E1CCD01A90032AE70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6C971E401CCD01A90032AE70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6C971E411CCD01A90032AE70 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6C971E431CCD01A90032AE70 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6C971E441CCD01A90032AE70 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6C971E471CCD01A90032AE70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6C971E491CCD01A90032AE70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C971E4C1CCD01A90032AE70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C971E4E1CCD01A90032AE70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C971E541CCD267C0032AE70 /* HeroDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroDetailViewController.h; sourceTree = "<group>"; };
+		6C971E551CCD267C0032AE70 /* HeroDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroDetailViewController.m; sourceTree = "<group>"; };
+		6C971E571CCD2EAB0032AE70 /* HeroTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroTableViewController.h; sourceTree = "<group>"; };
+		6C971E581CCD2EAB0032AE70 /* HeroTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroTableViewController.m; sourceTree = "<group>"; };
+		6C971E5A1CCD2ED20032AE70 /* Hero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hero.h; sourceTree = "<group>"; };
+		6C971E5B1CCD2ED20032AE70 /* Hero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hero.m; sourceTree = "<group>"; };
+		6C971E5D1CCD374A0032AE70 /* heroes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = heroes.json; path = "../../TIY-Assignment-Resources/SHIELD-Hero-Tracker/heroes.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +68,15 @@
 			children = (
 				6C971E401CCD01A90032AE70 /* AppDelegate.h */,
 				6C971E411CCD01A90032AE70 /* AppDelegate.m */,
-				6C971E431CCD01A90032AE70 /* ViewController.h */,
-				6C971E441CCD01A90032AE70 /* ViewController.m */,
 				6C971E461CCD01A90032AE70 /* Main.storyboard */,
+				6C971E541CCD267C0032AE70 /* HeroDetailViewController.h */,
+				6C971E551CCD267C0032AE70 /* HeroDetailViewController.m */,
+				6C971E571CCD2EAB0032AE70 /* HeroTableViewController.h */,
+				6C971E581CCD2EAB0032AE70 /* HeroTableViewController.m */,
+				6C971E5A1CCD2ED20032AE70 /* Hero.h */,
+				6C971E5B1CCD2ED20032AE70 /* Hero.m */,
 				6C971E491CCD01A90032AE70 /* Assets.xcassets */,
+				6C971E5D1CCD374A0032AE70 /* heroes.json */,
 				6C971E4B1CCD01A90032AE70 /* LaunchScreen.storyboard */,
 				6C971E4E1CCD01A90032AE70 /* Info.plist */,
 				6C971E3D1CCD01A90032AE70 /* Supporting Files */,
@@ -137,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C971E4D1CCD01A90032AE70 /* LaunchScreen.storyboard in Resources */,
+				6C971E5E1CCD374A0032AE70 /* heroes.json in Resources */,
 				6C971E4A1CCD01A90032AE70 /* Assets.xcassets in Resources */,
 				6C971E481CCD01A90032AE70 /* Main.storyboard in Resources */,
 			);
@@ -149,7 +163,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C971E451CCD01A90032AE70 /* ViewController.m in Sources */,
+				6C971E5C1CCD2ED20032AE70 /* Hero.m in Sources */,
+				6C971E561CCD267C0032AE70 /* HeroDetailViewController.m in Sources */,
+				6C971E591CCD2EAB0032AE70 /* HeroTableViewController.m in Sources */,
 				6C971E421CCD01A90032AE70 /* AppDelegate.m in Sources */,
 				6C971E3F1CCD01A90032AE70 /* main.m in Sources */,
 			);
