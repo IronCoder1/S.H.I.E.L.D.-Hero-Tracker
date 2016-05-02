@@ -10,7 +10,4 @@
 
 @interface HeroTableViewController : UITableViewController <UITableViewDataSource, UITableViewDelegate>
 
-
-
-
 @end

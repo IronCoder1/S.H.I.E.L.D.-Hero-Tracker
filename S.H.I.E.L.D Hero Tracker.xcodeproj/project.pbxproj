@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C0683551CCED64600F4C56D /* captainamerica.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C06834C1CCED64600F4C56D /* captainamerica.jpg */; };
+		6C0683561CCED64600F4C56D /* drax.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C06834D1CCED64600F4C56D /* drax.jpg */; };
+		6C0683571CCED64600F4C56D /* gamora.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C06834E1CCED64600F4C56D /* gamora.png */; };
+		6C0683581CCED64600F4C56D /* groot.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C06834F1CCED64600F4C56D /* groot.png */; };
+		6C0683591CCED64600F4C56D /* hulk.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C0683501CCED64600F4C56D /* hulk.png */; };
+		6C06835A1CCED64600F4C56D /* ironman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C0683511CCED64600F4C56D /* ironman.jpg */; };
+		6C06835B1CCED64600F4C56D /* rocketracoon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C0683521CCED64600F4C56D /* rocketracoon.jpg */; };
+		6C06835C1CCED64600F4C56D /* starlord.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C0683531CCED64600F4C56D /* starlord.png */; };
+		6C06835D1CCED64600F4C56D /* thor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C0683541CCED64600F4C56D /* thor.jpg */; };
 		6C971E3F1CCD01A90032AE70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C971E3E1CCD01A90032AE70 /* main.m */; };
 		6C971E421CCD01A90032AE70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C971E411CCD01A90032AE70 /* AppDelegate.m */; };
 		6C971E481CCD01A90032AE70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C971E461CCD01A90032AE70 /* Main.storyboard */; };
@@ -19,6 +28,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C06834C1CCED64600F4C56D /* captainamerica.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = captainamerica.jpg; sourceTree = SOURCE_ROOT; };
+		6C06834D1CCED64600F4C56D /* drax.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drax.jpg; sourceTree = SOURCE_ROOT; };
+		6C06834E1CCED64600F4C56D /* gamora.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamora.png; sourceTree = SOURCE_ROOT; };
+		6C06834F1CCED64600F4C56D /* groot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = groot.png; sourceTree = SOURCE_ROOT; };
+		6C0683501CCED64600F4C56D /* hulk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hulk.png; sourceTree = SOURCE_ROOT; };
+		6C0683511CCED64600F4C56D /* ironman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ironman.jpg; sourceTree = SOURCE_ROOT; };
+		6C0683521CCED64600F4C56D /* rocketracoon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rocketracoon.jpg; sourceTree = SOURCE_ROOT; };
+		6C0683531CCED64600F4C56D /* starlord.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starlord.png; sourceTree = SOURCE_ROOT; };
+		6C0683541CCED64600F4C56D /* thor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thor.jpg; sourceTree = SOURCE_ROOT; };
 		6C971E3A1CCD01A90032AE70 /* S.H.I.E.L.D Hero Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "S.H.I.E.L.D Hero Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C971E3E1CCD01A90032AE70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6C971E401CCD01A90032AE70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -69,15 +87,24 @@
 				6C971E401CCD01A90032AE70 /* AppDelegate.h */,
 				6C971E411CCD01A90032AE70 /* AppDelegate.m */,
 				6C971E461CCD01A90032AE70 /* Main.storyboard */,
-				6C971E541CCD267C0032AE70 /* HeroDetailViewController.h */,
-				6C971E551CCD267C0032AE70 /* HeroDetailViewController.m */,
-				6C971E571CCD2EAB0032AE70 /* HeroTableViewController.h */,
-				6C971E581CCD2EAB0032AE70 /* HeroTableViewController.m */,
 				6C971E5A1CCD2ED20032AE70 /* Hero.h */,
 				6C971E5B1CCD2ED20032AE70 /* Hero.m */,
+				6C971E571CCD2EAB0032AE70 /* HeroTableViewController.h */,
+				6C971E581CCD2EAB0032AE70 /* HeroTableViewController.m */,
+				6C971E541CCD267C0032AE70 /* HeroDetailViewController.h */,
+				6C971E551CCD267C0032AE70 /* HeroDetailViewController.m */,
 				6C971E491CCD01A90032AE70 /* Assets.xcassets */,
-				6C971E5D1CCD374A0032AE70 /* heroes.json */,
 				6C971E4B1CCD01A90032AE70 /* LaunchScreen.storyboard */,
+				6C06834C1CCED64600F4C56D /* captainamerica.jpg */,
+				6C06834D1CCED64600F4C56D /* drax.jpg */,
+				6C06834E1CCED64600F4C56D /* gamora.png */,
+				6C06834F1CCED64600F4C56D /* groot.png */,
+				6C0683501CCED64600F4C56D /* hulk.png */,
+				6C0683511CCED64600F4C56D /* ironman.jpg */,
+				6C0683521CCED64600F4C56D /* rocketracoon.jpg */,
+				6C0683531CCED64600F4C56D /* starlord.png */,
+				6C0683541CCED64600F4C56D /* thor.jpg */,
+				6C971E5D1CCD374A0032AE70 /* heroes.json */,
 				6C971E4E1CCD01A90032AE70 /* Info.plist */,
 				6C971E3D1CCD01A90032AE70 /* Supporting Files */,
 			);
@@ -150,9 +177,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C971E4D1CCD01A90032AE70 /* LaunchScreen.storyboard in Resources */,
+				6C0683551CCED64600F4C56D /* captainamerica.jpg in Resources */,
+				6C06835C1CCED64600F4C56D /* starlord.png in Resources */,
+				6C06835A1CCED64600F4C56D /* ironman.jpg in Resources */,
+				6C0683591CCED64600F4C56D /* hulk.png in Resources */,
+				6C0683571CCED64600F4C56D /* gamora.png in Resources */,
+				6C06835D1CCED64600F4C56D /* thor.jpg in Resources */,
 				6C971E5E1CCD374A0032AE70 /* heroes.json in Resources */,
+				6C06835B1CCED64600F4C56D /* rocketracoon.jpg in Resources */,
 				6C971E4A1CCD01A90032AE70 /* Assets.xcassets in Resources */,
+				6C0683561CCED64600F4C56D /* drax.jpg in Resources */,
 				6C971E481CCD01A90032AE70 /* Main.storyboard in Resources */,
+				6C0683581CCED64600F4C56D /* groot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +350,7 @@
 				6C971E531CCD01A90032AE70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,10 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class Hero;  ///notifying of a hero class
 @interface HeroDetailViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UILabel *heroNameLabel;
-@property (weak, nonatomic) IBOutlet UILabel *heroOriginLabel;
-@property (weak, nonatomic) IBOutlet UILabel *herosPowersLabel;
+
+@property (weak, nonatomic) IBOutlet UILabel *nameLabel;
+@property (weak, nonatomic) IBOutlet UILabel *homeWorldLabel;
+@property (weak, nonatomic) IBOutlet UILabel *powersLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *heroImageView;
+@property (strong, nonatomic) Hero *holdingHero;
 
 @end

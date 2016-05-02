@@ -7,11 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+@import UIKit;
 
 @interface Hero : NSObject
 @property (strong, nonatomic) NSString *name;
 @property (strong, nonatomic) NSString *homeworld;
 @property (strong, nonatomic) NSString *powers;
+@property (strong, nonatomic) NSString *myHeroImageName;
 
--(instancetype)initWith:(NSMutableDictionary *)heroesDict;
+
+
 @end
